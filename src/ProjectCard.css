@@ -1,0 +1,92 @@
+/* Ogólne style dla karty projektu */
+.ProjectCard-wrapper {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  
+  /* Główna sekcja karty z logo i opisem */
+  .ProjectCard {
+    display: flex;
+    padding: 20px;
+  }
+  
+  /* Kontener logo */
+  .logo-container {
+    min-width: 100px;
+    max-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 20px;
+  }
+  
+  /* Styl dla obrazka logo */
+  .project-logo {
+    width: 100%;
+    height: auto;
+    max-height: 100px;
+    object-fit: contain;
+  }
+  
+  /* Styl dla opisu projektu */
+  .project-description {
+    flex: 1;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Kontener dla przycisku */
+  .button-container {
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px solid #e0e0e0;
+  }
+  
+  /* Styl dla przycisku GitHub */
+  .github-button {
+    background-color: #0366d6; /* Kolor GitHub */
+    border: none;
+    border-radius: 4px;
+    padding: 0;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .github-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .github-button a {
+    display: inline-block;
+    padding: 8px 16px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  /* Responsywność dla małych ekranów */
+  @media (max-width: 600px) {
+    .ProjectCard {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .logo-container {
+      margin-right: 0;
+      margin-bottom: 15px;
+    }
+    
+    .project-description {
+      text-align: center;
+    }
+  }

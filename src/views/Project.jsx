@@ -1,16 +1,23 @@
+import { useNavigate } from "react-router-dom";
+
 export default function Project() {
+  const navigate = useNavigate();
     return (
     <>
 
       <h1>Projekty</h1>
 
       <div className="Section-wrapper">
-
-        <section>
+      
+        <section className="project-section" onClick={() =>  navigate('/js-projects')}>
           <div>
-            <img src="./src/assets/JavaScript-logo.png" />
+            <img src="./src/assets/JavaScript-logo.png"></img>
           </div>
-          <article><a>Poznaj moc czystego JavaScriptu! W tej sekcji prezentuję projekty zbudowane bez żadnych frameworków – tylko solidny, ręcznie napisany kod JS. Od interaktywnych aplikacji po zaawansowane rozwiązania webowe, każdy projekt demonstruje możliwości natywnego języka skryptowego, który napędza współczesną sieć.</a></article>
+          <article>Poznaj moc czystego JavaScriptu! W tej sekcji prezentuję projekty zbudowane bez żadnych frameworków
+           – tylko solidny, ręcznie napisany kod JS. Od interaktywnych aplikacji
+            po zaawansowane rozwiązania webowe, każdy projekt demonstruje 
+            możliwości natywnego języka skryptowego, który napędza współczesną sieć.
+           </article>
         </section>
         
         <section>
@@ -36,7 +43,6 @@ export default function Project() {
                demonstruje potencjał komponentowego podejścia React do budowania interaktywnych interfejsów przyszłości.</a>
           </article>
         </section>
-
 
       </div>
       

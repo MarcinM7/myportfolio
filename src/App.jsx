@@ -5,6 +5,7 @@ import Contact from './views/ContactView';
 import Project from './views/Project';
 import Footer from './views/Footer';
 import Header from './views/Header';
+import JS from './views/JSProject';
 import Animation3D from './views/Animation3D';
 import './index.css';
 
@@ -23,6 +24,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/project" element={<Project/>} />
+          <Route path="/js-projects" element={<JS />} />
         </Routes>
       </main>
       

@@ -42,7 +42,6 @@ p {
  section {
   display: flex;
   flex-direction: row;
-
   min-height: 110px;
  }
 
@@ -55,7 +54,34 @@ p {
  section article {
   padding-left: 30px;
   text-align: left;
+  max-height: 110px;
 
+ }
+
+ .ProjecrCard { 
+  display: flex;
+  background-color: #f0f2f5;
+  margin-bottom: 0%;
+  height: 140px;
+  max-width: 40%;
+  
+ }
+
+ .button-container {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  margin-top: 0%;
+  height: 10px;
+  max-width: 40%;
+ }
+
+ .buttonCard {
+  display: flex;
+  background-color: black;
+  height: 20px;
+  width: 100%;
+  align-items: end;
  }
 
 .AboutGlass{
