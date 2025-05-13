@@ -1,7 +1,7 @@
 
 
 
-export default function JS() {
+export default function Vu() {
     return (
     <>
         <div className="DivProject-Wrapper">
@@ -20,7 +20,7 @@ export default function JS() {
 
                     <div className="button-container">
                     <img src="./src/assets/github-logo.png" height={20}/>
-                    <button className="buttonCard"><a href="#">dasdasdsdasd</a></button>
+                    <button className="buttonCard"><a href="#">bbbbbbbbbbbbbbbb</a></button>
                     </div>
 
             </div>

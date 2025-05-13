@@ -20,7 +20,7 @@ export default function Project() {
            </article>
         </section>
         
-        <section>
+        <section className="project-section" onClick={() =>  navigate('/VueView')}>
           <div>
             <img src="./src/assets/vue-logo.png" />
           </div>
@@ -32,7 +32,7 @@ export default function Project() {
           </article>
         </section>
 
-        <section>
+        <section className="project-section" onClick={() =>  navigate('/ReactView')}>
           <div>
             <img src="./src/assets/react-logo.png" />
           </div>

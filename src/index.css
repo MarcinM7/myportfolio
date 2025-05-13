@@ -22,7 +22,14 @@ p {
   font-size: 1.1rem;
 }
 
+.DivProject-Wrapper {
 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  width: 100%;
+  margin-left: 80px;
+}
 
 .Abot-Wrapper{
   display: flex;
@@ -63,7 +70,7 @@ p {
   background-color: #f0f2f5;
   margin-bottom: 0%;
   height: 140px;
-  max-width: 40%;
+  max-width: 80%;
   
  }
 
@@ -73,7 +80,7 @@ p {
   justify-content: center;
   margin-top: 0%;
   height: 10px;
-  max-width: 40%;
+  max-width: 80%;
  }
 
  .buttonCard {
