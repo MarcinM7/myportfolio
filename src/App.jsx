@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
+import { useEffect } from 'react';
 import Home from './views/HomeView';
 import About from './views/AboutView';
 import Contact from './views/ContactView';
@@ -12,6 +13,29 @@ import Animation3D from './views/Animation3D';
 import './index.css';
 
 function App() {
+  // Funkcja do zamykania menu przy kliknięciu poza menu na urządzeniach mobilnych
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      const navigation = document.querySelector('.navigation.mobile');
+      const hamburger = document.querySelector('.hamburger-menu');
+      
+      if (navigation && navigation.classList.contains('open') && 
+          !navigation.contains(event.target) && 
+          hamburger && !hamburger.contains(event.target)) {
+        
+        navigation.classList.remove('open');
+        if (hamburger) hamburger.classList.remove('open');
+        document.body.classList.remove('menu-open');
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
+
   return (
     <div className="app-container">
       <Header />
