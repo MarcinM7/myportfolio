@@ -13,7 +13,7 @@ export default function JS() {
                     <img src="./src/assets/Comming_Soon.png" width={120} />
                     </div>
                     <article>
-                        <h1>Comming Soon !!!</h1>
+                        <h1 className="inner-title">Comming Soon !!!</h1>
                     </article>
 
                 </section>
@@ -33,7 +33,7 @@ export default function JS() {
                     <img src="./src/assets/Comming_Soon.png" width={120} />
                     </div>
                     <article>
-                        <h1>Comming Soon !!!</h1>
+                        <h1 className="inner-title">Comming Soon !!!</h1>
                     </article>
 
                 </section>
@@ -53,7 +53,7 @@ export default function JS() {
                     <img src="./src/assets/Comming_Soon.png" width={120} />
                     </div>
                     <article>
-                        <h1>Comming Soon !!!</h1>
+                        <h1 className="inner-title">Comming Soon !!!</h1>
                     </article>
 
                 </section>
@@ -73,7 +73,7 @@ export default function JS() {
                     <img src="./src/assets/Comming_Soon.png" width={120} />
                     </div>
                     <article>
-                        <h1>Comming Soon !!!</h1>
+                        <h1 className="inner-title">Comming Soon !!!</h1>
                     </article>
 
                 </section>
@@ -93,7 +93,7 @@ export default function JS() {
                     <img src="./src/assets/Comming_Soon.png" width={120} />
                     </div>
                     <article>
-                        <h1>Comming Soon !!!</h1>
+                        <h1 className="inner-title">Comming Soon !!!</h1>
                     </article>
 
                 </section>
@@ -113,7 +113,7 @@ export default function JS() {
                     <img src="./src/assets/Comming_Soon.png" width={120} />
                     </div>
                     <article>
-                        <h1>Comming Soon !!!</h1>
+                        <h1 className="inner-title">Comming Soon !!!</h1>
                     </article>
 
                 </section>
