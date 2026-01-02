@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <>
-      <h1>O nas</h1>;
+      <h1>O mnie</h1>;
           <div className="Abot-Wrapper">
             <div className="AboutGlass">
               <p>

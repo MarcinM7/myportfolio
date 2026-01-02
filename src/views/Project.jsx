@@ -11,7 +11,7 @@ export default function Project() {
       
         <section className="project-section" onClick={() =>  navigate('/js-projects')}>
           <div>
-            <img src="./src/assets/JavaScript-logo.png"></img>
+            <img src="./myportfolio/src/assets/JavaScript-logo.png"></img>
           </div>
           <article>
             Poznaj moc czystego JavaScriptu! W tej sekcji prezentuję projekty zbudowane bez żadnych frameworków
@@ -23,7 +23,7 @@ export default function Project() {
         
         <section className="project-section" onClick={() =>  navigate('/VueView')}>
           <div>
-            <img src="./src/assets/vue-logo.png" />
+            <img src="./myportfolio/src/assets/vue-logo.png" />
           </div>
           <article>
               Odkryj elegancję Vue.js! Ta kolekcja projektów pokazuje, 
@@ -35,7 +35,7 @@ export default function Project() {
 
         <section className="project-section" onClick={() =>  navigate('/ReactView')}>
           <div>
-            <img src="./src/assets/react-logo.png" />
+            <img src="./myportfolio/src/assets/react-logo.png"/>
           </div>
           <article>
               Zanurz się w ekosystemie React! Tutaj znajdziesz moje najbardziej dynamiczne projekty

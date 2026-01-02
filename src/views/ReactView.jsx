@@ -10,7 +10,7 @@ export default function Rc() {
                 <section className="ProjecrCard">
 
                     <div>
-                    <img src="./src/assets/Comming_Soon.png" width={120} />
+                    <img src="./myportfolio/src/assets/Comming_Soon.png" width={120} />
                     </div>
                     <article>
                         <h1 className="inner-title">Comming Soon !!!</h1>
@@ -19,8 +19,8 @@ export default function Rc() {
                 </section>
 
                     <div className="button-container">
-                    <img src="./src/assets/github-logo.png" height={20}/>
-                    <button className="buttonCard"><a href="#">aaaaaaaaaaaaaa</a></button>
+                    <img src="./myportfolio/src/assets/github-logo.png" height={20}/>
+                    <button className="buttonCard"><a href="#"></a></button>
                     </div>
 
             </div>
@@ -30,7 +30,7 @@ export default function Rc() {
                 <section className="ProjecrCard">
 
                     <div>
-                    <img src="./src/assets/Comming_Soon.png" width={120} />
+                    <img src="./myportfolio/src/assets/Comming_Soon.png" width={120} />
                     </div>
                     <article>
                         <h1 className="inner-title">Comming Soon !!!</h1>
@@ -39,7 +39,7 @@ export default function Rc() {
                 </section>
 
                     <div className="button-container">
-                    <img src="./src/assets/github-logo.png" height={20}/>
+                    <img src="./myportfolio/src/assets/github-logo.png" height={20}/>
                     <button className="buttonCard"><a href="#">dasdasdsdasd</a></button>
                     </div>
 
@@ -50,7 +50,7 @@ export default function Rc() {
                 <section className="ProjecrCard">
 
                     <div>
-                    <img src="./src/assets/Comming_Soon.png" width={120} />
+                    <img src="./myportfolio/src/assets/Comming_Soon.png" width={120} />
                     </div>
                     <article>
                         <h1 className="inner-title">Comming Soon !!!</h1>
@@ -59,7 +59,7 @@ export default function Rc() {
                 </section>
 
                     <div className="button-container">
-                    <img src="./src/assets/github-logo.png" height={20}/>
+                    <img src="./myportfolio/src/assets/github-logo.png" height={20}/>
                     <button className="buttonCard"><a href="#">dasdasdsdasd</a></button>
                     </div>
 
@@ -70,7 +70,7 @@ export default function Rc() {
                 <section className="ProjecrCard">
 
                     <div>
-                    <img src="./src/assets/Comming_Soon.png" width={120} />
+                    <img src="./myportfolio/src/assets/Comming_Soon.png" width={120} />
                     </div>
                     <article>
                         <h1 className="inner-title">Comming Soon !!!</h1>
@@ -79,7 +79,7 @@ export default function Rc() {
                 </section>
 
                     <div className="button-container">
-                    <img src="./src/assets/github-logo.png" height={20}/>
+                    <img src="./myportfolio/src/assets/github-logo.png" height={20}/>
                     <button className="buttonCard"><a href="#">dasdasdsdasd</a></button>
                     </div>
 
@@ -90,7 +90,7 @@ export default function Rc() {
                 <section className="ProjecrCard">
 
                     <div>
-                    <img src="./src/assets/Comming_Soon.png" width={120} />
+                    <img src="./myportfolio/src/assets/Comming_Soon.png" width={120} />
                     </div>
                     <article>
                         <h1 className="inner-title">Comming Soon !!!</h1>
@@ -99,7 +99,7 @@ export default function Rc() {
                 </section>
 
                     <div className="button-container">
-                    <img src="./src/assets/github-logo.png" height={20}/>
+                    <img src="./myportfolio/src/assets/github-logo.png" height={20}/>
                     <button className="buttonCard"><a href="#">dasdasdsdasd</a></button>
                     </div>
 
@@ -110,7 +110,7 @@ export default function Rc() {
                 <section className="ProjecrCard">
 
                     <div>
-                    <img src="./src/assets/Comming_Soon.png" width={120} />
+                    <img src="./myportfolio/src/assets/Comming_Soon.png" width={120} />
                     </div>
                     <article>
                         <h1 className="inner-title">Comming Soon !!!</h1>
@@ -119,7 +119,7 @@ export default function Rc() {
                 </section>
 
                     <div className="button-container">
-                    <img src="./src/assets/github-logo.png" height={20}/>
+                    <img src="./myportfolio/src/assets/github-logo.png" height={20}/>
                     <button className="buttonCard"><a href="#">dasdasdsdasd</a></button>
                     </div>
 
